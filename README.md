@@ -117,8 +117,15 @@ Comments | `/comments` | `String` | `Array[Comment]` | [Demo](https://mockend.co
 }
 ```
 
-# [Full docs](https://docs.mockend.com/)
+----
 
+# Links
+
+  - [Full docs](https://docs.mockend.com/)
+  - [mockend/demo](https://github.com/mockend/demo)
+
+
+----
 
 ### Thanks
 - [Mockend](https://docs.mockend.com/)
