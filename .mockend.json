@@ -71,6 +71,12 @@
         "post": {
             "belongsTo": "Post"
         },
+        "createdAt": {
+            "dateTime": {
+                "min": "2010-01-01T00:00:00Z",
+                "max": "2022-12-01T23:59:59Z"
+            }
+        },
         "user": {
             "belongsTo": "User"
         }
