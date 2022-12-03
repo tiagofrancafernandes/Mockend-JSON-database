@@ -4,7 +4,8 @@ Mockend JSON database
 ### Base URL
 `https://mockend.com/tiagofrancafernandes/Mockend-JSON-database`
 
-# 1. List your fake users with a GET request
+# 1. List of fake [resource] with a GET request
+> _See [#Resources](Resources)_
 
 ```sh
 curl https://mockend.com/tiagofrancafernandes/Mockend-JSON-database/users
@@ -27,3 +28,9 @@ curl https://mockend.com/tiagofrancafernandes/Mockend-JSON-database/users \
 ```
 https://mockend.com/tiagofrancafernandes/Mockend-JSON-database/graphql
 ```
+
+# Resources
+
+Name | URI | Acceptable Parameters | Example | Type of Return
+--|--|--|--|--
+Users | `/users` | - | - | `Array[User]`
