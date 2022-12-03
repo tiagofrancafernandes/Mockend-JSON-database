@@ -54,6 +54,9 @@
         },
         "post": {
             "belongsTo": "Post"
+        },
+        "user": {
+            "belongsTo": "User"
         }
     },
     "Author": {
