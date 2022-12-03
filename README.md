@@ -9,9 +9,9 @@ Mockend JSON database
 
 ```sh
 # curl https://mockend.com/tiagofrancafernandes/Mockend-JSON-database/[resource]
-# curl https://mockend.com/tiagofrancafernandes/Mockend-JSON-database/[resource]/[params]
-
 curl https://mockend.com/tiagofrancafernandes/Mockend-JSON-database/users
+
+# curl https://mockend.com/tiagofrancafernandes/Mockend-JSON-database/[resource]/[params]
 curl https://mockend.com/tiagofrancafernandes/Mockend-JSON-database/users/1
 ```
 
@@ -42,8 +42,29 @@ https://mockend.com/tiagofrancafernandes/Mockend-JSON-database/graphql
 Name | URI | Type | Type of Return | Demo
 --|--|--|--|--
 Users | `/users` | `String` | `Array[User]` | [Demo](https://mockend.com/tiagofrancafernandes/Mockend-JSON-database/users)
-User | `/users/{id}` | `Integer` | `User` | [Demo](https://mockend.com/tiagofrancafernandes/Mockend-JSON-database/users/1)
+[User](#User) | `/users/{id}` | `Integer` | `User` | [Demo](https://mockend.com/tiagofrancafernandes/Mockend-JSON-database/users/1)
 Posts | `/posts` | `String` | `Array[Post]` | [Demo](https://mockend.com/tiagofrancafernandes/Mockend-JSON-database/posts)
-Post | `/posts/{id}` | `Integer` | `Post` | [Demo](https://mockend.com/tiagofrancafernandes/Mockend-JSON-database/posts/1)
+[Post](#Post) | `/posts/{id}` | `Integer` | `Post` | [Demo](https://mockend.com/tiagofrancafernandes/Mockend-JSON-database/posts/1)
 Comments | `/comments` | `String` | `Array[Comment]` | [Demo](https://mockend.com/tiagofrancafernandes/Mockend-JSON-database/comments)
-Comment | `/comments/{id}` | `Integer` | `Comment` | [Demo](https://mockend.com/tiagofrancafernandes/Mockend-JSON-database/comments/1)
+[Comment](#Comment) | `/comments/{id}` | `Integer` | `Comment` | [Demo](https://mockend.com/tiagofrancafernandes/Mockend-JSON-database/comments/1)
+
+# Schemes
+
+
+## User [TODO]
+
+```json
+{}
+```
+
+## Post [TODO]
+
+```json
+{}
+```
+
+## Comment [TODO]
+
+```json
+{}
+```
