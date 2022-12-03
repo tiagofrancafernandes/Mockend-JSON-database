@@ -1,5 +1,7 @@
 # Mockend-JSON-database
-Mockend JSON database
+> Mockend JSON database
+
+---
 
 ### Base URL
 `https://mockend.com/tiagofrancafernandes/Mockend-JSON-database`
@@ -34,6 +36,7 @@ curl https://mockend.com/tiagofrancafernandes/Mockend-JSON-database/users \
 ## Demo GraphQL requests:
   - [Using Javascript](./demos/graphql.js)
   - [Using CURL](./demos/graphql-curl.sh)
+  - [Pure GraphQL](./demos/graphql-queries.md)
 ```
 https://mockend.com/tiagofrancafernandes/Mockend-JSON-database/graphql
 ```
@@ -123,9 +126,11 @@ Comments | `/comments` | `String` | `Array[Comment]` | [Demo](https://mockend.co
 
   - [Full docs](https://docs.mockend.com/)
   - [mockend/demo](https://github.com/mockend/demo)
+  - [http-in-five-ways](https://www.contentful.com/blog/graphql-via-http-in-five-ways/)
 
 
 ----
 
 ### Thanks
-- [Mockend](https://docs.mockend.com/)
+- [Mockend](https://docs.mockend.com)
+- [Contentful](https://www.contentful.com)
