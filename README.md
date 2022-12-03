@@ -37,6 +37,8 @@ curl https://mockend.com/tiagofrancafernandes/Mockend-JSON-database/users \
   - [Using Javascript](./demos/graphql.js)
   - [Using CURL](./demos/graphql-curl.sh)
   - [Pure GraphQL](./demos/graphql-queries.md)
+  - [mockend/demo](https://github.com/mockend/demo)
+  - [Other examples](./demos/examples.md)
 ```
 https://mockend.com/tiagofrancafernandes/Mockend-JSON-database/graphql
 ```
@@ -125,8 +127,9 @@ Comments | `/comments` | `String` | `Array[Comment]` | [Demo](https://mockend.co
 # Links
 
   - [Full docs](https://docs.mockend.com/)
-  - [mockend/demo](https://github.com/mockend/demo)
   - [http-in-five-ways](https://www.contentful.com/blog/graphql-via-http-in-five-ways/)
+  - [mockend/demo](https://github.com/mockend/demo)
+  - [Other examples](./demos/examples.md)
 
 
 ----
