@@ -50,6 +50,7 @@ Comments | `/comments` | `String` | `Array[Comment]` | [Demo](https://mockend.co
 
 # Schemes
 
+> See [`.mockend.json`](.mockend.json)
 
 ## User
 
