@@ -32,13 +32,16 @@
         "title": {
             "string": {}
         },
+        "body": {
+            "loremParagraphs": { "minLength": 200, "maxLength": 500 }
+          },
         "comments": {
             "hasMany": "Comment"
         }
     },
     "Comment": {
         "body": {
-            "string": {}
+            "loremSentences": { "minLength": 100, "maxLength": 200 }
         },
         "post": {
             "belongsTo": "Post"
