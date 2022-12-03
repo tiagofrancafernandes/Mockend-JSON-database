@@ -110,3 +110,9 @@ Comments | `/comments` | `String` | `Array[Comment]` | [Demo](https://mockend.co
     }
 }
 ```
+
+# [Full docs](https://docs.mockend.com/)
+
+
+### Thanks
+- [Mockend](https://docs.mockend.com/)
