@@ -33,7 +33,7 @@
     },
     "Post": {
         "title": {
-            "string": {}
+            "regexp": "[A-Z][a-z]{5,10} [A-Z][a-z]{5,10}"
         },
         "body": {
             "loremParagraphs": { "minLength": 200, "maxLength": 500 }
@@ -57,8 +57,8 @@
         }
     },
     "Author": {
-        "name": {
-            "string": {}
+        "name": { 
+            "regexp": "[A-Z][a-z]{5,10} [A-Z][a-z]{5,10}"
         },
         "avatarUrl": {
             "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
