@@ -29,6 +29,11 @@ curl https://mockend.com/tiagofrancafernandes/Mockend-JSON-database/users \
 > `https://mockend.com/org/repo/graphql`
 >
 > [Open Graphql URL](https://mockend.com/tiagofrancafernandes/Mockend-JSON-database/graphql)
+>
+
+## Demo GraphQL requests:
+  - [Using Javascript](./demos/graphql.js)
+  - [Using CURL](./demos/graphql-curl.sh)
 ```
 https://mockend.com/tiagofrancafernandes/Mockend-JSON-database/graphql
 ```
