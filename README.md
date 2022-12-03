@@ -5,7 +5,7 @@ Mockend JSON database
 `https://mockend.com/tiagofrancafernandes/Mockend-JSON-database`
 
 # 1. List of fake [resource] with a GET request
-> _See [#Resources](Resources)_
+> _See [Resources](#Resources)_
 
 ```sh
 curl https://mockend.com/tiagofrancafernandes/Mockend-JSON-database/users
