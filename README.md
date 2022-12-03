@@ -132,5 +132,6 @@ Comments | `/comments` | `String` | `Array[Comment]` | [Demo](https://mockend.co
 ----
 
 ### Thanks
-- [Mockend](https://docs.mockend.com)
-- [Contentful](https://www.contentful.com)
+- [Mockend](https://docs.mockend.com/)
+- [Contentful](https://www.contentful.com/)
+- [Netlify](https://www.netlify.com/)

@@ -35,9 +35,25 @@
         "title": {
             "regexp": "[A-Z][a-z]{5,10} [A-Z][a-z]{5,10}"
         },
+        "cover": {
+          "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
+        },
         "body": {
             "loremParagraphs": { "minLength": 200, "maxLength": 500 }
-          },
+        },
+        "tag": {
+            "string": [
+                "one",
+                "two",
+                "three"
+            ]
+        },
+        "createdAt": {
+            "dateTime": {
+                "min": "2010-01-01T00:00:00Z",
+                "max": "2022-12-01T23:59:59Z"
+            }
+        },
         "comments": {
             "hasMany": "Comment"
         },

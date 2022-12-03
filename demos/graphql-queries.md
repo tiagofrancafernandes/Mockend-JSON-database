@@ -69,3 +69,4 @@
 
 ### Links
 - https://www.contentful.com/blog/graphql-via-http-in-five-ways/
+- [https://www.netlify.com/blog/2020/12/21/send-graphql-queries...](https://www.netlify.com/blog/2020/12/21/send-graphql-queries-with-the-fetch-api-without-using-apollo-urql-or-other-graphql-clients/)
