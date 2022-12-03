@@ -43,6 +43,9 @@
         },
         "posts": {
             "hasMany": "Post"
+        },
+        "author": {
+            "belongsTo": "Author"
         }
     },
     "Comment": {
