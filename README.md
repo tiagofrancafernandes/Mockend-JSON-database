@@ -8,7 +8,11 @@ Mockend JSON database
 > _See [Resources](#Resources)_
 
 ```sh
+# curl https://mockend.com/tiagofrancafernandes/Mockend-JSON-database/[resource]
+# curl https://mockend.com/tiagofrancafernandes/Mockend-JSON-database/[resource]/[params]
+
 curl https://mockend.com/tiagofrancafernandes/Mockend-JSON-database/users
+curl https://mockend.com/tiagofrancafernandes/Mockend-JSON-database/users/1
 ```
 
 # 2. Fake a creation with a POST
@@ -31,6 +35,15 @@ https://mockend.com/tiagofrancafernandes/Mockend-JSON-database/graphql
 
 # Resources
 
-Name | URI | Acceptable Parameters | Example | Type of Return
+<!--
+`[a-zA-Z0-9]*`
+-->
+
+Name | URI | Type | Type of Return | Demo
 --|--|--|--|--
-Users | `/users` | - | - | `Array[User]`
+Users | `/users` | `String` | `Array[User]` | [Demo](https://mockend.com/tiagofrancafernandes/Mockend-JSON-database/users)
+User | `/users/{id}` | `Integer` | `User` | [Demo](https://mockend.com/tiagofrancafernandes/Mockend-JSON-database/users/1)
+Posts | `/posts` | `String` | `Array[Post]` | [Demo](https://mockend.com/tiagofrancafernandes/Mockend-JSON-database/posts)
+Post | `/posts/{id}` | `Integer` | `Post` | [Demo](https://mockend.com/tiagofrancafernandes/Mockend-JSON-database/posts/1)
+Comments | `/comments` | `String` | `Array[Comment]` | [Demo](https://mockend.com/tiagofrancafernandes/Mockend-JSON-database/comments)
+Comment | `/comments/{id}` | `Integer` | `Comment` | [Demo](https://mockend.com/tiagofrancafernandes/Mockend-JSON-database/comments/1)
